@@ -1,6 +1,6 @@
-# CodeChest
+# Intel GPGPU and Media programming
 
-Welcome to CodeChest! This repository is a rich collection of samples and boilerplates, primarily focusing on SYCL, VAAPI, and CMake. With the inclusion of Dockerfiles, our aim is to ensure reproducibility and ease of setup for developers. Whether you are looking to get started or seeking references for advanced applications, CodeChest is here to help!
+Welcome to Intel GPGPU and Media programming! This repository is a rich collection of samples and boilerplates, primarily focusing on SYCL, VAAPI, and CMake. With the inclusion of Dockerfiles, our aim is to ensure reproducibility and ease of setup for developers. Whether you are looking to get started or seeking references for advanced applications, CodeChest is here to help!
 
 ## Directory Structure
 

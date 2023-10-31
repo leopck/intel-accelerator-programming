@@ -44,7 +44,7 @@ This code demonstrates the integration of Level Zero (a low-level GPU programmin
 
 - **createContext**: This function creates a Level Zero context using a driver handle.
 
-- **createUSMmemory**: Allocates USM memory of a given size. Unified Shared Memory (USM) allows shared use of pointers between the host and the device.
+- **createUSMmemory**: Allocates USM memory of a given size. Unified Shared Memory (USM) allows shared use of pointers between the host and the device. This is using `zeMemAllocDevice` to allocate the memory in the device directly, we can also allocate using host and shared (auto sync between device and host) but this case, I want to directly allocate on the device memory itself.
 
 - **usmToDmaBuf**: Converts a USM pointer to a DMA BUF file descriptor. This is the bridge between Level Zero memory and the DMA BUF mechanism.
 

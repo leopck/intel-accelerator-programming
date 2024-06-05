@@ -1,6 +1,6 @@
-# Intel GPGPU Programming
+# Intel Accelerator Programming
 
-This repository contains various examples and projects related to GPGPU programming using Intel technologies and platforms.
+This repository contains various examples and projects related to GPGPU and Intel's various accelerator programming using Intel technologies and platforms.
 
 ## Structure
 
